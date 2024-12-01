@@ -38,21 +38,6 @@ Die App verwendet eine DynamoDB-Tabelle, um die Daten der Studierenden zu speich
   - `class`: Klasse oder Kurszuordnung.
   - `name`: Name des Studierenden.
 
-## 📂 DynamoDB Datenstruktur
-Die App verwendet eine DynamoDB-Tabelle, um die Daten der Studierenden zu speichern. Hier ist ein Beispiel für die Struktur:
-
-| studentId | age | class | name          |
-|-----------|-----|-------|---------------|
-| 1         | 19  | A     | cedric        |
-| 2         | 20  | B     | zweiterStudent|
-
-### Tabelleinstellungen
-- **Primärschlüssel**: `studentId` (String)
-- **Attribute**:
-  - `studentId`: Eindeutige ID für jeden Studierenden.
-  - `age`: Alter des Studierenden.
-  - `class`: Klasse oder Kurszuordnung.
-  - `name`: Name des Studierenden.
 
 ### Beispiel-Daten (JSON)
 Einträge in der Tabelle sehen wie folgt aus:
