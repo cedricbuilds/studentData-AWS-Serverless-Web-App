@@ -1,5 +1,7 @@
 # Student Data AWS Serverless Web App
 
+Link zur CloudFront Web Page: https://d343walgtp0lvj.cloudfront.net
+
 ## 📖 Übersicht
 Dies ist eine serverlose Web-App, die in AWS implementiert wurde. Die App ermöglicht es, Daten von Studierenden in einer DynamoDB-Datenbank zu speichern und abzurufen. Sie nutzt mehrere AWS-Services, um eine skalierbare und kosteneffiziente Lösung bereitzustellen.
 
