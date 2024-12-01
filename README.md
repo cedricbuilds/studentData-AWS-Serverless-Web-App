@@ -20,13 +20,13 @@ Dies ist eine serverlose Web-App, die in AWS implementiert wurde. Die App ermög
 
 ## 🛠️ Projektstruktur
 studentData-AWS-Serverless-Web-App/
-├── frontend/             
-│   ├── index.html
-│   └── script.js
-├── lambda-functions/     
-│   ├── getStudent.js
-│   └── insertStudentData.js
-├── README.md            
+frontend/             
+  index.html
+  script.js
+lambda-functions/     
+  getStudent.js
+  insertStudentData.js
+README.md            
 
 ## 📂 DynamoDB Datenstruktur
 Die App verwendet eine DynamoDB-Tabelle, um die Daten der Studierenden zu speichern. Hier ist ein Beispiel für die Struktur:
