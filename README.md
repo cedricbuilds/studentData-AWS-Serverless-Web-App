@@ -18,15 +18,7 @@ Dies ist eine serverlose Web-App, die in AWS implementiert wurde. Die App ermög
 2. **Daten hinzufügen**: Eine POST-API fügt neue Daten zur Datenbank hinzu.
 3. **Frontend**: Ein einfaches Interface zur Anzeige und Eingabe von Studentendaten.
 
-## 🛠️ Projektstruktur
-studentData-AWS-Serverless-Web-App/
-frontend/             
-  index.html
-  script.js
-lambda-functions/     
-  getStudent.js
-  insertStudentData.js
-README.md            
+       
 
 ## 📂 DynamoDB Datenstruktur
 Die App verwendet eine DynamoDB-Tabelle, um die Daten der Studierenden zu speichern. Hier ist ein Beispiel für die Struktur:
